@@ -1,0 +1,28 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Generated experiment outputs
+outputs/
+checkpoints/
+wandb/
+reports/generated/
+data/raw/
+data/videos/
+*.mp4
+*.avi
+*.mov
+*.h5
+*.hdf5
+
+# Local secrets and machine-specific configuration
+.env
+*.local
